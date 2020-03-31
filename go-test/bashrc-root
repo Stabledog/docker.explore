@@ -1,0 +1,4 @@
+#!/bin/bash
+
+alias lr='ls -lirt'
+
