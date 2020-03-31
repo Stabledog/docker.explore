@@ -18,3 +18,9 @@ services:
     depends_on: ["web","redis"]
     stdin_open: true
     tty: true
+  gobuild:
+    build: ../go-test
+    volumes: [".:/app"]
+    depends_on: ["web","redis"]
+    stdin_open: true
+    tty: true
